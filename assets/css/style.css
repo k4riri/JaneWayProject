@@ -1,0 +1,431 @@
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0 ,0 ,0 , 0.4);
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.slides-navigation a.prev,
+
+.slides-navigation a.next {
+  width: 47px;
+  height: 47px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slides-navigation a.prev{
+ left:20px ;
+ background-image: url(../img/icons/prev.png);
+}
+.bold-yellow{
+
+  color:#0096FF;
+}
+
+
+.slides-navigation a.next{
+ right:20px ;
+ background-image: url(../img/icons/next.png);
+
+}
+
+
+.titleMessage {
+  position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -100px;
+  
+
+}
+
+.titleMessage .heading p{
+  color: #fff;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+    font-weight: 150;
+    letter-spacing: 4px;
+    
+}
+
+.titleMessage .heading .main {
+  font-size: 40px;
+}
+
+.titleMessage .heading .sub {
+  font-size: 23px;
+  font-weight: 900;
+
+}
+
+.exploreButton {
+  color: white;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  background-color:#0096FF;
+}
+
+.exploreButton:hover {
+  color: #0096FF;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  background-color:white;
+  text-decoration: none;
+}
+
+.section {
+  background-color:#ffff;
+  color:black;
+  padding: 100px 0;
+}
+
+.aboutImage {
+  max-width: 100%;
+}
+ 
+
+
+
+.contactSection {
+  background-color:white;
+  color: black;
+}
+
+.servicesSection {
+  background-color:#0096FF;
+  color: whitesmoke;
+
+}
+
+.SOHeading{
+text-decoration: none;
+color: whitesmoke;
+padding: 5px 9px;
+display: inline-block;
+margin-bottom: 30px;
+border: 2px solid whitesmoke ;
+border-radius: 2px;
+
+}
+
+.tick {
+  list-style: none;
+}
+
+.tick li:before {
+  content: '✓';
+}
+
+.disclaimer {
+  color: black;
+  padding: 5px 9px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border: 1px solid black ;
+  border-radius: 2px;
+}
+
+.WCUHeading{
+  color: black;
+  padding: 5px 9px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border: 2px solid black ;
+  border-radius: 2px;
+
+}
+
+.why-choose-us {
+  padding: 30px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.reasons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reason {
+  
+  padding: 20px;
+  text-align: left;
+}
+
+.reason-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.reason-description {
+  font-size: 18px;
+}
+
+.contactButtonSMS {
+  color: black;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border: 1px solid #000000 ;
+  border-radius: 2px;
+}
+
+.contactButtonSMS:hover {
+  text-decoration: none;
+  background-color:teal;
+  color:white;
+}
+
+.contactButtonCALL {
+  color: black;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border: 1px solid #000000 ;
+  border-radius: 2px;
+}
+
+.contactButtonCALL:hover {
+  text-decoration: none;
+  background-color:darkgreen;
+  color:white;
+}
+
+.contactButtonWA {
+  color: black;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border: 1px solid #000000 ;
+  border-radius: 2px;
+}
+
+.contactButtonWA:hover {
+  text-decoration: none;
+  background-color:rgb(37, 211, 102);
+  color:white;
+}
+
+.contactButton {
+  color: black;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border: 1px solid #000000 ;
+  border-radius: 2px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  background-color:#0096FF;
+  color:whitesmoke;
+}
+
+
+.copyrightSection {
+  background-color:whitesmoke;
+  color:black;
+  padding: 30px 5px;
+}
+
+
+.copyrightSection p{
+margin: 0;
+}
+
+#navigation {
+align-items: center;
+background-color: white;
+z-index: 100;
+padding: 20px 10px;
+width: 100%;
+}
+
+#navigation li {
+  align-items: center;
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: black;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+    font-weight: 150;
+    letter-spacing: 4px;
+
+}
+
+
+.navbar-brand,
+.navbar-brand:hover {
+
+  color: #0096FF;
+
+}
+
+.navbar-toggler-icon {
+ background: url(../img/icons/menubar.png);
+ background-size: 100%;
+
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0 ;
+  z-index: 999;
+}
+.navi-link {
+  color: red;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  background-color: #DDD;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  
+}
+#back2Top:hover {
+  background-color: #0096FF;
+  color: white;
+}
+
+#social-media {
+   color: #fff;
+
+  text-align: center;
+  background-color:whitesmoke;
+  color:black;
+  padding: 30px 5px;
+}
+
+#social-media h2 {
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 40px;
+  color: darkgray;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: translateY(-5px);
+}
+
+
+form {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="time"], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#registration-form {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-group {
+    flex-direction: column;
+  }
+}
