@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Services</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Eric Kariri">
+		<link rel="icon" href="images/Logos/logo.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="keywords" content="Janeway, digital asset management, investment, asset management, cryptocurrency, blockchain, custodial services, research, digital wealth, wealth management, crypto assets, asset classes, index fund, financial futures, portfolio construction">
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+		crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+		<script src="https://www.google.com/jsapi"></script>
+
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	
+		<style>
+			#header {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+			}
+
+			nav ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				display: flex; /* This makes the items in the list display horizontally */
+				align-items: center; /* This vertically centers the list items if needed */
+			}
+
+			nav li {
+				margin-right: 20px; /* Adjust the spacing between each nav item */
+			}
+
+			nav li:last-child {
+				margin-right: 0; /* Removes the margin from the last item to avoid extra spacing on the right */
+			}
+
+			nav a {
+				text-decoration: none; /* Optional: Removes the underline from links */
+				color: #000; /* Change the color as needed */
+			}
+
+			/* Additional styles for the header and navigation text */
+			#header h1 {
+				margin: 0; /* Adjust as needed */
+				padding: 0; /* Adjust as needed */
+			}
+
+			/* Style adjustments for the <a> tag within <h1> to maintain consistency */
+			#header h1 a {
+				text-decoration: none;
+				color: inherit; /* This makes the color the same as the parent element */
+			}
+
+			.services-list {
+				list-style-type: none; /* Removes default list styling */
+				counter-reset: service-counter; /* Creates a counter for serializing items */
+			}
+
+			.services-list li {
+				counter-increment: service-counter; /* Increments the counter */
+				margin-bottom: 10px; /* Adds space between items */
+			}
+
+			.services-list li::before {
+				content: counter(service-counter) ". ";
+				font-weight: bold; /* Makes the numbers bold */
+			}
+
+			i {
+				margin-right: 8px;
+			}
+
+
+		</style>
+	</head>
+	<body class="is-preload">
+		<body class="is-preload" style="font-size: 19px;">
+			<video autoplay loop muted id="background-video">
+				<source src="images/dubai.mp4" type="video/mp4">
+			</video>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper" style="color: whitesmoke;">
+
+				<header>
+					<nav id="navigation" class="navbar navbar-expand-lg ">
+					  
+					  <a class="navbar-brand" href="#"></a>
+					  <img class="menubaricon" width="45px" height="30px" src="images/Logos/logo.png" alt="">
+			
+			
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span>
+							<img class="navbar-toggler-icon" src="images/menubar.png" alt="">
+						</span>
+					  </button>
+					  <div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+						  <li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="aboutus.html">About Us</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="teams.html">Team</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#">Services</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#footer">Contact us</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#">Login/Register</a>
+						  </li>
+				
+						</ul>
+					  </div>
+					</nav>
+			</header>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Services</h2>
+								<p>Welcome to Janeway, where we provide comprehensive solutions for digital asset management. Our range of services is designed to help you navigate the complexities of the digital asset landscape and secure your financial future.</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper spotlight style1">
+								<div class="inner">
+									<div class="services">
+										<ul class="services-list">
+											<ul>
+												<h3><i class="fas fa-chart-line"></i>Trading</h3>
+												<p style="font-size: 20px;">Our trading services offer a robust platform for both seasoned and novice traders. With real-time market data, advanced tools, and 24/7 support, we ensure seamless execution of trades across global markets. Experience personalized trading strategies that align with your financial goals.</p>
+											</ul> <br><br>
+											<ul>
+												<h3><i class="fas fa-briefcase"></i>  Asset Management</h3>
+												<p style="font-size: 20px;">Our asset management service is designed to maximize your investment returns while managing risk. Leveraging in-depth market analysis and innovative investment strategies, we tailor portfolios to meet your unique financial objectives. Let us help you grow your wealth with confidence.</p>
+											</ul> <br><br>
+											<ul>
+												<h3><i class="fas fa-lock"></i> Custody</h3>
+												<p style="font-size: 20px;">Secure your assets with our state-of-the-art custody services. Offering high-level security measures for the safekeeping of your investments, we provide peace of mind through comprehensive asset protection, transaction settlement, and reporting services.</p>
+											</ul> <br><br>
+											<ul>
+												<h3><i class="fas fa-chart-pie"></i> Financial Planning</h3>
+												<p style="font-size: 20px;">Achieve your financial aspirations with our bespoke financial planning services. From retirement planning to tax strategies and estate planning, our experts provide personalized advice to navigate life's financial milestones. Start crafting your financial future today.</p>
+											</ul> <br><br>
+											<ul>
+												<h3><i class="fas fa-shield-alt"></i> Risk Assessment</h3>
+												<p style="font-size: 20px;">Mitigate financial risks with our comprehensive risk assessment services. We apply advanced analytics to identify potential risks in your investment portfolio and provide strategic recommendations to safeguard your assets against market volatility.</p>
+											</ul> <br><br>
+											<ul>
+												<h3><i class="fas fa-user-tie"></i> Investment Advisory</h3>
+												<p style="font-size: 20px;">Elevate your investment strategy with our expert advisory services. Our advisors offer personalized guidance, from portfolio optimization to selecting the right investment opportunities, ensuring your investment decisions align with your financial goals.</p>
+											</ul> <br><br>
+											<ul>
+												<h3><i class="fas fa-piggy-bank"></i> Wealth Management </h3><!-- Replaced fas fa-wealth with fas fa-piggy-bank -->
+												<p style="font-size: 20px;">Our wealth management service offers a holistic approach to managing your financial life. Combining investment advice, estate planning, and tax services, we deliver strategies that grow and protect your wealth, tailored to your unique situation and aspirations.</p>
+											</ul> <br><br>
+											<ul>
+												 <h3><i class="fas fa-gavel"></i> Regulatory Compliance </h3>
+												<p style="font-size: 20px;">Navigate the complex world of financial regulations with our regulatory compliance services. Our experts ensure that your investments and business operations adhere to all applicable laws and regulations, minimizing risk and enhancing operational efficiency.</p>
+											</ul> <br><br>
+											<ul>
+												<h3><i class="fas fa-chart-bar"></i> Market Analysis </h3> <!-- Replaced fas fa-analytics with fas fa-chart-bar -->
+												<p style="font-size: 20px;">Stay ahead of market trends with our comprehensive market analysis services. Our experts provide in-depth insights into market dynamics, helping you make informed decisions to capitalize on market opportunities and drive investment success.</p>
+											</ul> <br><br>
+											<ul>
+												<h3><i class="fas fa-balance-scale"></i>  Portfolio Management </h3><!-- Replaced fas fa-portfolio with fas fa-balance-scale -->
+												<p style="font-size: 20px;">Optimize your investment portfolio with our professional portfolio management services. From asset selection to performance monitoring, our team employs strategic asset allocation to align your portfolio with your financial objectives, balancing risk against performance.</p>
+											</ul> <br><br>
+										</ul>
+									</div>
+									
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+				<section id="footer">
+					<div class="inner">
+						<h2 class="major">GET IN TOUCH</h2>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="4"></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+						<ul class="contact">
+							<li class="icon solid fa-home">
+								Real Towers 3rd floor<br />
+								UPPERHILL<br />
+								Nairobi
+							</li>
+							<li class="icon solid fa-phone">+254 722 204 259</li>
+							<li class="icon solid fa-envelope"><a href="#">info@janeway.ai</a></li>
+							<li class="icon brands fa-twitter"><a href="#">twitter.com/janewaycapital</a></li>
+							<li class="icon brands fa-tiktok"><a href="#">tiktok.com/janewaycapital</a></li>
+							<li class="icon brands fa-instagram"><a href="#">instagram.com/janewaycapital</a></li>
+						</ul>
+						<ul class="copyright" style="text-align: center;">
+							<li>&copy; 2024 <B style="margin-right: 10px; margin-left: 5px;">JANE WAY CAPITAL. </B>All rights reserved.</li>
+						</ul>
+					</div>
+				</section>
+
+			</div>
+
+		<!-- Scripts -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+		crossorigin="anonymous"></script> 
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
