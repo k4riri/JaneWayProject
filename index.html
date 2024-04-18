@@ -64,7 +64,43 @@
 				color: inherit; /* This makes the color the same as the parent element */
 			}
 
-		</style>
+			    .partner-item {
+			        display: flex;
+			        justify-content: center;
+			        align-items: center;
+			        padding: 10px;
+			        border: 1px solid white;
+			        border-radius: 5px;
+			    }
+			
+			    .partner-item img {
+			        width: 100%; /* Adjusted width for responsiveness */
+			        height: auto;
+			        border-radius: 50%; /* Ensures circular shape for rounded images */
+			    }
+			
+			    .partner-item img,
+			    .partner-item b {
+			        display: block;
+			        text-align: center;
+			        margin: 0 auto;
+			    }
+			
+			    /* Optional: Add styles for the h2 heading */
+			    .heading-holder h2 {
+			        text-align: center;
+			    }
+			
+			    /* Media query for responsiveness */
+			    @media screen and (min-width: 768px) {
+			        .partners {
+			            display: grid;
+			            grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns for larger screens */
+			            grid-gap: 10px;
+			        }
+			    }
+			</style>
+
 	</head>
 	<body class="is-preload" style="font-size: 19px;">
 		<video autoplay loop muted id="background-video">
