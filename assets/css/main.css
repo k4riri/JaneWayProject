@@ -5,6 +5,33 @@
     --main-font: 'DancingScript', cursive;
 }
 
+.partner-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.partner-item img {
+    width: 150px; /* Recommended width */
+    height: auto; /* Auto height to maintain aspect ratio */
+}
+
+.partner-item img,
+.partner-item b {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Optionally, you can add styles for the h2 heading */
+.heading-holder h2 {
+    text-align: center;
+}
+
+
 html::after {
 	content: "";
 	position: fixed; /* Use fixed to cover the whole page, regardless of scrolling */
